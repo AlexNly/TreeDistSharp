@@ -1,5 +1,10 @@
 # TreeDistSharp
 
+[![CI](https://github.com/AlexNly/TreeDistSharp/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexNly/TreeDistSharp/actions/workflows/ci.yml)
+[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4.svg)](https://dotnet.microsoft.com/)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
+[![NuGet](https://img.shields.io/badge/NuGet-coming%20soon-orange.svg)](https://www.nuget.org/)
+
 C# implementation of phylogenetic tree distance metrics, ported from the R [TreeDist](https://github.com/ms609/TreeDist) package by Martin R. Smith.
 
 ## Features
