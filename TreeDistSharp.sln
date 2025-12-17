@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AC0526EB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeDistSharp.Tests", "tests\TreeDistSharp.Tests\TreeDistSharp.Tests.csproj", "{CCF68090-0707-42BB-8E9A-27EFE7517795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeDistSharp.Cli", "src\TreeDistSharp.Cli\TreeDistSharp.Cli.csproj", "{DE987D84-3A8F-4AC9-B9CD-DFA1AD9FB6A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{CCF68090-0707-42BB-8E9A-27EFE7517795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCF68090-0707-42BB-8E9A-27EFE7517795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCF68090-0707-42BB-8E9A-27EFE7517795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE987D84-3A8F-4AC9-B9CD-DFA1AD9FB6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE987D84-3A8F-4AC9-B9CD-DFA1AD9FB6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE987D84-3A8F-4AC9-B9CD-DFA1AD9FB6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE987D84-3A8F-4AC9-B9CD-DFA1AD9FB6A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B3442A20-8FBE-4CA8-AC7A-25E8C27C0D87} = {6E286BE7-8CC9-44AE-9674-027283B8BE44}
 		{CCF68090-0707-42BB-8E9A-27EFE7517795} = {AC0526EB-DD80-42E1-B947-C055DFCFE099}
+		{DE987D84-3A8F-4AC9-B9CD-DFA1AD9FB6A2} = {6E286BE7-8CC9-44AE-9674-027283B8BE44}
 	EndGlobalSection
 EndGlobal
