@@ -17,13 +17,46 @@ C# implementation of phylogenetic tree distance metrics, ported from the R [Tree
 
 ## Installation
 
+**As a library:**
 ```bash
 dotnet add package TreeDistSharp
 ```
 
-Or reference the project directly in your solution.
+**As a CLI tool:**
+```bash
+dotnet tool install -g TreeDistSharp.Cli
+```
 
-## Usage
+Or build from source:
+```bash
+git clone https://github.com/AlexNly/TreeDistSharp.git
+cd TreeDistSharp
+dotnet build -c Release
+```
+
+## CLI Usage
+
+```bash
+# Compare two trees
+treedist "((a,b),(c,d));" "((a,c),(b,d));"
+
+# Output:
+# Tips:         4
+# TreeDistance: 1.000000
+# RF:           2
+# RF (norm):    1.000000
+
+# Specific metric
+treedist "((a,b),(c,d));" "((a,c),(b,d));" -m rf
+
+# Quiet mode (just the number)
+treedist "((a,b),(c,d));" "((a,c),(b,d));" -m cid -q
+
+# From files
+treedist tree1.nwk tree2.nwk
+```
+
+## Library Usage
 
 ```csharp
 using TreeDistSharp;
